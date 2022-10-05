@@ -21,7 +21,7 @@ public class StringSample {
     static void metodoLowerUpperCase(){
         /** métodos que tornam as palavras  minusculas respectivamente*/
 
-        String nome = "GLEYSON SAMPAIO";
+        String nome = "ANTONIO PRUDENCIO";
         String nomeMinusculo = nome.toLowerCase();
         System.out.println(nomeMinusculo);
 
@@ -34,8 +34,8 @@ public class StringSample {
          * deste método é um nova String*/
 
         String nome = "Antonio";
-        String sobrenome = "Prudencio`";
-        //gleyson sampaio
+        String sobrenome = "Prudencio";
+        //Antonio Prudencio
         String nomeCompleto = nome.concat( " ").concat(sobrenome);
         System.out.println(nomeCompleto);
 
@@ -45,8 +45,8 @@ public class StringSample {
          * em uma determinada variável do tipo String retorna um valor boolean
          * verdadeiro ou falso*/
 
-        String nome = "gleyson sampaio";
-        String palavra = "sampaio";
+        String nome = "Antonio Prudencio";
+        String palavra = "Prudencio";
         Boolean resposta = nome.contains(palavra);//ver aplicabilidade de usar classes Wrappers (toString)
 
         System.out.println("O nome ".concat(nome).concat(" contains a plavara ")
